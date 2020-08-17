@@ -6,3 +6,16 @@
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
+
+.destat {
+    filter: grayscale(100%);
+}
+
+.devicon-git-plain {
+  max-width: 1em;
+}
+
+/* if you want to change the original color */
+/* .devicon-git-plain path {
+  fill: #4691f6;
+} */
