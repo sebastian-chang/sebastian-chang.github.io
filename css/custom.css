@@ -4,7 +4,7 @@
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.822);
 }
 
 .destat {
@@ -12,7 +12,7 @@
 }
 
 .devicon-git-plain {
-  max-width: 1em;
+  max-width: .75em;
 }
 
 /* if you want to change the original color */
