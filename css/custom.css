@@ -8,11 +8,11 @@
 }
 
 .destat {
-    filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .devicon-git-plain {
-  max-width: 3rem;
+	max-width: 3rem;
 }
 
 /* if you want to change the original color */

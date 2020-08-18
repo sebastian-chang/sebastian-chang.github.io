@@ -154,7 +154,7 @@ INTRO SECTION
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .intro h1,
