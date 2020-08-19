@@ -15,6 +15,10 @@
 	max-width: 3rem;
 }
 
+.contact-img {
+	max-height: 55vh;
+}
+
 /* if you want to change the original color */
 /* .devicon-git-plain path {
   fill: #4691f6;

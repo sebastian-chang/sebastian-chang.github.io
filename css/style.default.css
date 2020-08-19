@@ -270,7 +270,7 @@ CONTACT SECTION
 }
 
 p.social {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
 }
 
@@ -286,7 +286,7 @@ p.social a {
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 
 p.social a i {
@@ -294,23 +294,23 @@ p.social a i {
   line-height: 38px;
 }
 
-p.social a.facebook {
+p.social a.lightest {
   background-color: #ccc;
 }
 
-p.social a.gplus {
+p.social a.darkest {
   background-color: #333;
 }
 
-p.social a.twitter {
+p.social a.medium {
   background-color: #aaa;
 }
 
-p.social a.instagram {
+p.social a.medium-plus {
   background-color: #999;
 }
 
-p.social a.email {
+p.social a.dark {
   background-color: #666;
 }
 
