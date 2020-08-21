@@ -8,5 +8,4 @@ const backgrounds = [
 ]
 
 const backNum = Math.floor(Math.random() * Math.floor(backgrounds.length))
-console.log(backNum)
 $('#intro').css({'background-image': `url(${backgrounds[backNum]}`})
