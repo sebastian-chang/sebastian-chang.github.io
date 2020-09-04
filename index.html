@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
+   <!-- Custom portfolio stylesheet -->
+  <link rel="stylesheet" href="css/portfolio-hover.css">
   <!-- Resume stylesheet - for your changes-->
   <link rel="stylesheet" href="css/resume.css">
   <!-- Devicon -->
@@ -46,10 +48,10 @@
             <p class="italic">Hello, nice to meet you!</p>
             <h1>I am Sebastian Chang.</h1>
             <p class="intro-position italic">
-              <span></span>
+              <!-- <span></span> -->
               <span>Full-Stack Developer</span>
               <span>Software Engineer</span>
-              <span>Technical Engineer</span>
+              Technical Engineer
             </p>
           </div>
         </div>
@@ -84,8 +86,12 @@
       <div class="row">
         <div class="col-lg-6">
           <h2 class="heading">About me</h2>
-          <p class="lead">This can be an about section.</p>
-          <p>I'm a little tea pot short and stout. </p>
+          <p class="lead">Let me introduce myself</p>
+          <p>I'm a sports fan, computer geek, video gamer, full-stack developer, technical engineer who loves to travel.
+            I'm a hard working, outside the box, quick learning, self driven team player. I have a BS in computer science with a minor in mathematics.
+            I have background in video technologies from my time in post production, where I have managed technical teams.
+            I love solving problems, especially when having to learn new developing technologies.
+          </p>
         </div>
         <div class="col-lg-4 col-6 mx-auto">
           <p><img src="img/profiles/profile-02.jpg" alt="" class="img-fluid rounded-circle destat"></p>
@@ -101,7 +107,7 @@
         <div class="col-sm-12 col-12">
           <h2 class="heading">Skills</h2>
           <div class="row grid">
-            <div class="col-sm-2 col-2">
+            <div class="col-sm-2 col-3">
               <div class="box">
                 <div class="icon">
                   <svg class='devicon-git-plain' viewBox="0 0 128 128">
@@ -113,7 +119,7 @@
                 <!-- <h5>Apple</h5> -->
               </div>
             </div>
-            <div class="col-sm-2 col-2">
+            <div class="col-sm-2 col-3">
               <div class="box">
                 <div class="icon">
                   <svg class='devicon-git-plain' viewBox="0 0 128 128">
@@ -125,7 +131,7 @@
                 <!-- <h5>Bootstrap</h5> -->
               </div>
             </div>
-            <div class="col-sm-2 col-2">
+            <div class="col-sm-2 col-3">
               <div class="box">
                 <div class="icon">
                   <svg class="devicon-git-plain" viewBox="0 0 128 128">
@@ -146,7 +152,7 @@
                 <!-- <h5>C++</h5> -->
               </div>
             </div>
-            <div class="col-sm-2 col-2">
+            <div class="col-sm-2 col-3">
               <div class="box">
                 <div class="icon">
                   <svg class='devicon-git-plain' viewBox="0 0 128 128">
@@ -2728,16 +2734,19 @@
                 <!-- <h5>Sass</h5> -->
               </div>
             </div>
-            <!-- <div class="col-sm-3 d-flex justify-content-center">
+            <div class="col-sm-2 col-2">
               <div class="box">
                 <div class="icon">
-                  <i class="fa fa-globe"></i>
+                  <svg class='devicon-git-plain' viewBox="0 0 128 128">
+                    <path fill="#00ADEF"
+                      d="M126 1.637l-67 9.834v49.831l67-.534zM1.647 66.709l.003 42.404 50.791 6.983-.04-49.057zM58.467 67.389l.094 49.465 67.376 9.509.016-58.863zM1.61 19.297l.047 42.383 50.791-.289-.023-49.016z">
+                    </path>
+                  </svg>
                 </div>
-                <h5>SEO and SEM</h5>
-                <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
+                <!-- <h5>Windows</h5> -->
               </div>
             </div>
-            <div class="col-sm-3 d-flex justify-content-center">
+            <!-- <div class="col-sm-3 d-flex justify-content-center">
               <div class="box">
                 <div class="icon">
                   <i class="fa fa-globe"></i>
@@ -2768,14 +2777,34 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              <div class="box"><a href="img/portfolio-1.jpg" data-lightbox="image-1"
-                  data-title="Some footer information" class="has-border"><img src="img/backgrounds/DSC_0012.jpg"
-                    alt="image" class="img-fluid"></a></div>
+              <!-- <div class="box"><a href="img/portfolio-1.jpg" data-lightbox="image-1"
+                  data-title="Tic-Tac-Toe" class="has-border"><img src="img/projects/Tic-Tac-Toe.png"
+                    alt="image" class="img-fluid"></a></div> -->
+                    <div class="box hovereffect">
+                      <img class="img-fluid img-responsive" src="img/projects/Tic-Tac-Toe.png" alt="">
+                      <div class="overlay">
+                        <h2>Tic-Tac-Toe</h2>
+                        <p>Tic-tac-toe is a game in which two players, X and O, take turns marking empty spaces in a 3x3 grid. A simple AI versus computer.</p>
+                        <span class='pull-left'><a class="info" href="https://github.com/sebastian-chang/tic-tac-toe"><i class="devicon-github-plain"></i> repo</a></span>
+                        <span class='pull-right'><a class="info" href="https://sebastian-chang.github.io/tic-tac-toe/">Live Site</a></span>
+                      </div>
+                    </div>
             </div>
             <div class="col-md-4">
-              <div class="box"><a href="img/portfolio-2.jpg" data-lightbox="image-1"
-                  data-title="Some footer information" class="has-border destat"><img src="img/backgrounds/DSC_0096.jpg"
-                    alt="image" class="img-fluid"></a></div>
+              <!-- <div class="box"><a href="img/portfolio-2.jpg" data-lightbox="image-1"
+                  data-title="Some footer information" class="has-border"><img src="img/projects/Block-Shre.png"
+                    alt="image" class="img-fluid"></a></div> -->
+                    <div class="box hovereffect">
+                      <img class="img-fluid img-responsive" src="img/projects/Block-Share.png" alt="">
+                      <div class="overlay">
+                        <h2>Community Share</h2>
+                        <p>A place where people can list video games that they are willing to let others in their neighborhood borrow.
+                          Could be expanded to utilize other resources that people may find useful.
+                        </p>
+                        <span class='pull-left'><a class="info" href="https://github.com/sebastian-chang/block-share"><i class="devicon-github-plain"></i> repo</a></span>
+                        <span class='pull-right'><a class="info" href="https://sebastian-chang.github.io/block-share/">Live Site</a></span>
+                      </div>
+                    </div>
             </div>
             <div class="col-md-4">
               <div class="box"><a href="img/portfolio-3.jpg" data-lightbox="image-1"
@@ -3020,7 +3049,7 @@
                 <a href="tel:+18186481763" title="Call Me" class="medium-plus"><i class="fa fa-phone"></i></a><span
                   class='contact-info'>818-648-1763</span>
               </p>
-              <p class="social">
+              <p class="social d-none d-md-block">
                 <a href="mailto: sebastian.chang23@gmail.com" title="Email Me" class="dark">
                   <i class="fa fa-envelope"></i></a><span class='contact-info'>sebastian.chang23@gmail.com</span>
               </p>
@@ -3035,7 +3064,18 @@
                     class="fa fa-github"></i></a>
               </p>
             </div>
-            <div class="col-lg-4 mx-auto">
+            <div class="col-lg-4 mx-auto d-none d-md-block">
+              <!-- <div class="col-lg-4 col-6 mx-auto"> -->
+              <p><img src="img/profiles/profile-01.jpg" alt="" class="img-fluid contact-img destat" style></p>
+              <!-- </div> -->
+            </div>
+            <div class='container'>
+              <p class="social d-block d-md-none">
+                <a href="mailto: sebastian.chang23@gmail.com" title="Email Me" class="dark">
+                  <i class="fa fa-envelope"></i></a><span class='contact-info'>sebastian.chang23@gmail.com</span>
+              </p>
+            </div>
+            <div class="col-lg-4 mx-auto d-block d-md-none">
               <!-- <div class="col-lg-4 col-6 mx-auto"> -->
               <p><img src="img/profiles/profile-01.jpg" alt="" class="img-fluid contact-img destat" style></p>
               <!-- </div> -->
