@@ -33,3 +33,7 @@
 #inspire-block {
 	border-left: 5px solid #fff;
 }
+
+p.social a:hover {
+	background-color: #104696;
+  }
