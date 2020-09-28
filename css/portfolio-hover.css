@@ -49,8 +49,8 @@ filter: grayscale(100%);
 .hovereffect:hover img {
 filter: brightness(0.6);
 -webkit-filter: brightness(0.6);
-filter: grayscale(15%) blur(5px);
--webkit-filter: grayscale(15%) blur(5px);
+filter: grayscale(15%) blur(10px);
+-webkit-filter: grayscale(15%) blur(10px);
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.2);

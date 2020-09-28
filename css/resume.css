@@ -51,8 +51,8 @@
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   border-radius: 50px;
   left: -9px;
   top: 0;
@@ -69,4 +69,10 @@
 	padding-left: 10px;
 	/* text-align: justify; */
 	/* text-justify: inter-word; */
+}
+.resume-link {
+  color: inherit;
+}
+.resume-link:hover {
+  color: #43abc9;
 }
