@@ -19,17 +19,13 @@
 	max-height: 55vh;
 }
 
-/* if you want to change the original color */
-/* .devicon-git-plain path {
-  fill: #4691f6;
-} */
 #inspire-quote {
 	font-family: "Roboto Condensed", sans-serif;
 	margin-left: 2rem;
 }
-#inspire-author {
-	/* margin-right: 1rem; */
-}
+/* #inspire-author {
+	margin-right: 1rem;
+} */
 #inspire-block {
 	border-left: 5px solid #fff;
 }
